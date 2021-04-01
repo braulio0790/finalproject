@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Finalproject for Braulio Garcia in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/date_toggle_menu.js"></script>
+  <script src="js/windchill_forecast.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&display=swap" rel="stylesheet">
+  <title>GDL Commerce Chamber - Contact</title>
+</head>
+<body onload="getYear(); windChill(); forecast()">
+  <header>
+    <div class="wrapperHeader">
+      <div id="logo" class="imgContainer"><a href="https://braulio0790.github.io/finalproject/"><img src="img/Logo.PNG" alt="logo gdl commerce chamber"></a></div>
+      <div class="headericons">
+        <img src="img/facebook.png">
+        <img src="img/twitter.png">
+      </div>
+    </div>
+
+  
+
+     <nav class="headerNavigation">
+      <div class="headerWidth">
+       <button onclick="toggleMenu()">&#9776</button>
+       <ul id="display" class="hide">
+        <Li><a href="https://braulio0790.github.io/finalproject/index.html">Home</a></Li>
+        <Li><a href="https://braulio0790.github.io/finalproject/city.html">City</a></Li>
+        <Li><a href="https://braulio0790.github.io/finalproject/join.html">Join</a></Li>
+        <Li><a href="https://braulio0790.github.io/finalproject/directory.html">Directory</a></Li>
+        <Li><a href="https://braulio0790.github.io/finalproject/contact.html">Contact</a></Li>
+       </ul>
+      </div>
+    </nav>
+  
+  </header>
+  
+  <main>
+   <section class="section1"></section>
+
+   <section class="section2"></section>
+
+   <section class="section3"></section>
+
+   <section class="section4"></section>
+
+   <section class="section5"></section>
+
+  </main> <!-- end of main -->
+
+
+  <footer>
+    <div class="footerContainer">
+      <a href="https://www.copyright.gov/help/faq/faq-general.html#:~:text=Copyright%2C%20a%20form%20of%20intellectual,%2C%20computer%20software%2C%20and%20architecture." target="_blank">&copy; <span id='yearC'></span></a>  &nbsp; | &nbsp;
+      <a href="https://www.linkedin.com/in/braulio-garc%C3%ADa-52785484/" target="_blank">Braulio Garcia</a>  &nbsp; | &nbsp;
+      <a href="https://guadalajara.gob.mx/" target="_blank">Guadalajara</a>  &nbsp; | &nbsp;
+      <a href="https://www.byui.edu/online" target="_blank">BYUi Online</a>  &nbsp; | &nbsp;
+    </div>
+    <div class="currentHourW"><span id="currentHour"></span></div>
+  </footer>
+</body>
+</html>  

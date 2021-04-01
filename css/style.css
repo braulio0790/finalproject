@@ -296,7 +296,26 @@ td{
     padding: 1em;
 }
 
+/* Style for the different sections*/
+.section1{
+   background-color: #CBBEB3;
+}
 
+.section2{
+    background-color: #BCAF9C;
+ }
+
+ .section3{
+    background-color: #CBBEB3;
+ }
+ 
+ .section4{
+    background-color: #BCAF9C;
+ }
+
+ .section5{
+    background-color: #CBBEB3;
+ }
 
 /* Media Queries Start Here*/
 
