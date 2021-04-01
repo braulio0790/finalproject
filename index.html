@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Finalproject for Braulio Garcia in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/date_toggle_menu.js"></script>
+  <script src="js/windchill_forecast.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&display=swap" rel="stylesheet">
+  <title>GDL Commerce Chamber</title>
+</head>
+<body onload="getYear(); windChill(); forecast()">
+  <header>
+    <div class="wrapperHeader">
+      <div id="logo" class="imgContainer"><a href="https://braulio0790.github.io/braulio0790/lesson11/index.html"><img src="img/logo.png" alt="logo gdl commerce chamber"></a></div>
+      <div class="headericons">
+        <img src="img/facebook.png">
+        <img src="img/twitter.png">
+      </div>
+    </div>
+
+  
+
+     <nav class="headerNavigation">
+      <div class="headerWidth">
+       <button onclick="toggleMenu()">&#9776</button>
+       <ul id="display" class="hide">
+        <Li><a href="https://braulio0790.github.io/braulio0790/lesson11/index.html">Home</a></Li>
+        <Li><a href="https://braulio0790.github.io/braulio0790/lesson11/preston.html">City</a></Li>
+        <Li><a href="https://braulio0790.github.io/braulio0790/lesson11/sodaspring.html">Join</a></Li>
+        <Li><a href="https://braulio0790.github.io/braulio0790/lesson11/fishhaven.html">Directory</a></Li>
+        <Li><a href="https://braulio0790.github.io/braulio0790/lesson11/stormcenter.html">Contact</a></Li>
+       </ul>
+      </div>
+    </nav>
+  
+  </header>
+  <div class="banner">
+    <img src="img/banner.jpg" alt="a picture of a land scape with people on bikes">
+    <div class="text-block">
+      <h3>
+        The chamber of commerce of Guadalajara support the local business and attract tourism to increase the economy of the city. Your business will have a wide range of tools to help you.
+      </h3>
+      <button>Join Us</button>
+    </div>
+  </div>
+  <button>Contact Us</button>
+  <main>
+
+  <section class="business3">
+       <h3>Know the Local Businesses</h3>
+       <div class="wrapperbusiness">
+       <div id="b1"><a href="#"><img src="img/famosas.jpg"></a></div>
+       <div id="b2"><a href="#"><img src="img/garibaldi.jpg"></a></div>
+       <div id="b3"><a href="#"><img src="img/dolphy.jpeg"></a></div>
+       </div>
+      <a class="linkbusiness3" href="#">See More</a>
+  </section>
+  
+  <section class="descriptionsection">
+    <div class="descriptionwrapper">
+      <h3>Guadadalajara Chamber of Commerce</h3>
+      <p>
+        *Guadalajara chamber of commerce is an organization that help business to grow and promote tourism.<br><br>
+        *The chamber advertise the business that are part of the organization in the pyhsical and digital space.<br><br>
+        *Members of the organization have access to especial discounts in publicity.<br><br>
+        *Members of the organization have access to especial training and business coferences.<br><br>
+        *Members of the organization have especial legal support.<br><br>
+        *Members of the organization could be elegible for credits to improve their business.
+       </p>
+    </div>
+   </section>
+
+  <section class="weather">
+    <div class="wrapperweather">
+     <h3>Current Weather in Guadalajara</h3>
+     <strong>Currently: </strong><span id="type">Sunny</span><br><br>
+     <strong>High: </strong><span id="temp">45</span> °F<br><br>
+     <strong>Wind Chill: </strong><span id="windChill"></span>"F<br><br>
+     <strong>Humidity: </strong><span id="humidity">69</span>%<br><br>
+     <strong>Wind Speed: </strong><span id="speed">5</span>mph<br><br>
+    </div>
+  </section>
+
+  <section class="events">
+    <div class="wrapperEvents">
+     <h3>Upcomming Events</h3>
+     <div id="event1">Saint Valentains Day's - Feb 14th</div>
+     <div id="event2">Guadalajara Anual Aniversary - Feb 14th</div>
+     <div id="event3">October Festival - Oct</div>
+     <div id="event4">Christmash Parade - Dec 15th</div>
+    </div>
+  </section>
+
+  <section class="forecast">
+    <h3>Weekly Forecast</h3>
+    <div class="weekly_weather">     
+      <table>
+          <tbody>
+            <tr class="headertable">
+
+              <th class="headertable" id="dayofweek3"></th>
+              <th class="headertable" id="dayofweek4"></th>
+              <th class="headertable" id="dayofweek5"></th>
+            </tr>
+
+            <tr>
+
+              <th class="table"><img id="imagesrc3"><img id="icon3"></th>
+              <th class="table"><img id="imagesrc4"><img id="icon4"></th>
+              <th class="table"><img id="imagesrc5"><img id="icon5"></th>
+            </tr>
+
+            <tr>
+
+              <td class="headertable" id="forecast3"></td>
+              <td class="headertable" id="forecast4"></td>
+              <td class="headertable" id="forecast5"></td>
+            </tr>
+          </tbody>
+       </table>  
+      </div>
+    </section>
+
+
+  <section class="contactsection">
+   <div class="contactwrapper">
+    <h3>Contact</h3>
+      <p>
+       Address: Av. Patria #879, Col.Jardines del Tepeyac, Zapopan, Mexico<br><br>
+       Phone: 33-36-49-39-97<br><br>
+       Email: contactus@sunnycloud.com<br><br>
+      </p>
+   </div> 
+  </section>
+
+  </main> <!-- end of main -->
+
+
+  <footer>
+    <div class="footerContainer">
+      <a href="https://www.copyright.gov/help/faq/faq-general.html#:~:text=Copyright%2C%20a%20form%20of%20intellectual,%2C%20computer%20software%2C%20and%20architecture." target="_blank">&copy; <span id='yearC'></span></a>  &nbsp; | &nbsp;
+      <a href="https://www.linkedin.com/in/braulio-garc%C3%ADa-52785484/" target="_blank">Braulio Garcia</a>  &nbsp; | &nbsp;
+      <a href="https://guadalajara.gob.mx/" target="_blank">Guadalajara</a>  &nbsp; | &nbsp;
+      <a href="https://www.byui.edu/online" target="_blank">BYUi Online</a>  &nbsp; | &nbsp;
+    </div>
+    <div class="currentHourW"><span id="currentHour"></span></div>
+  </footer>
+</body>
+</html>  
