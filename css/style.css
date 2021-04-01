@@ -296,26 +296,45 @@ td{
     padding: 1em;
 }
 
-/* Style for the different sections*/
+/* Style for the different background sections*/
 .section1{
    background-color: #CBBEB3;
+   padding: 2em;
+   text-align: center;
 }
 
 .section2{
     background-color: #BCAF9C;
+    padding: 2em;
+    text-align: center;
  }
 
  .section3{
     background-color: #CBBEB3;
+    padding: 2em;
+    text-align: center;
  }
  
  .section4{
     background-color: #BCAF9C;
+    padding: 2em;
+    text-align: center;
  }
 
  .section5{
     background-color: #CBBEB3;
+    padding: 2em;
+    text-align: center;
  }
+
+ /* style for the city */
+ .himg{
+     width: 60%;
+ }
+
+
+
+
 
 /* Media Queries Start Here*/
 
