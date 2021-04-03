@@ -1,0 +1,68 @@
+{
+  "business": [
+    {
+      "name": "Carnes Garibaldi",
+      "photo": "garibaldi_logo.jpg",
+      "description": "Founded in 1970, Doña Jita y Don Néstor started their business in Guadalajara downtown. They are now part of the traditional local food of the city and for anyone who visit the city the visit to the restaurant is a must.",
+      "yearFounded": 1970,
+      "contact": "Address: Calle Garibaldi 1306, Villaseñor, 44600 Guadalajara, Jal. - Phone: 33 3826-1286",
+      "website": "https://karnegaribaldi.com.mx/"
+    },
+
+    {
+        "name": "Tortas Ahogadas las Famosas",
+        "photo": "tortas_logo.jpg",
+        "description": "Besides Calle Independencia, visit Tortas Las Famosas in the vicinity. You are to find perfectly cooked laing. Good service is something guests agree upon here. But this restaurant hasn't earned a high rating from Google users.",
+        "yearFounded": 1960,
+        "contact": "Av Patria 2546-A, López Portillo, 44960 Guadalajara, Jal. - Phone: 33 3663 4309",
+        "website": "https://restaurantguru.com/Tortas-las-famosas-Tlaquepaque"
+    },
+
+    {
+        "name": "Helados Dolphy",
+        "photo": "dolphy_logo.jpg",
+        "description": "Dolphy was created in 1999, sharing with Mexicans when the world prepared to say goodbye to the millennium and welcome a new flavor, but respectful and faithful to tradition. When we started, we were a new brand, but not a newcomer. At Dolphy we already knew about flavor, because among our founders was Adolph B. Horn. A businessman very loved by the people of Guadalajara, creator of our traditional recipe for round ice cream more than fifty years ago.",
+        "yearFounded": 1999,
+        "contact": "Calle Ignacio Aguirre, Lomas del Nilo, 44820 Guadalajara, Jal. - Phone: 33 3344 8999",
+        "website": "https://www.dolphy.com.mx/"
+    },
+
+    {
+        "name": "Santo Coyote",
+        "photo": "santo_logo.png",
+        "description": "For over 20 years Santo Coyote has brought together flavors, scents, spaces and moments wrapped in magic, culture and mysticism with the warmth of our people. Visiting our restaurants is a unique experience full of tradition and meaning in the spirit of the ancestors.",
+        "yearFounded": 2000,
+        "contact": "Lerdo de Tejada #2379 Guadalajara, Jal. - Phone: 01-800-087-0330",
+        "website": "https://santocoyote.com.mx/"
+    },
+
+    {
+        "name": "Sacromonte",
+        "photo": "sacro_logo.png",
+        "description": "The flavor of our family tradition at your table If we were to look for the origin of art in the creation of pleasures for the palate, we would have to go back more than 4 generations of the family. Today, together with my brothers, I am pleased to share the flavor of our tradition. Flavor that we learned to appreciate as children, where we learned the prophetic recipes from the trunk of our great Grandmothers cooks.Trunk that hid the treasure of our current Mexican cuisine, incorporating the historical roads of Mexico, passing through Spanish and Moors.",
+        "yearFounded": 1965,
+        "contact": "Pedro Moreno 1398  Col. Americana, 44160, Guadalajara, Jal - Phone:  01 33 3825 5447",
+        "website": "https://www.sacromonte.com.mx/"
+    },
+
+    {
+        "name": "La Gorda",
+        "photo": "gorda_logo.png",
+        "description": "From Guadalajara. Josefina García, a brave and strong woman who is affectionately called Gorda, together with her husband Marcelino Rodríguez, better known as Machelo and Doña Hildeliza Ruvalcaba la Abuela, began this story of tenacity and a incredible love and pride for Mexican gastronomy.",
+        "yearFounded": 1956,
+        "contact": "Juan Álvarez 1336 Colonia Santa Teresita, Guadalajara, Jal - Phone:  (33) 3827 5845",
+        "website": "https://lagorda.com.mx/"
+    },
+
+    {
+        "name": "La Casa de los Platos",
+        "photo": "platos_logo.png",
+        "description": "When we are in Guadalajara, don't we soon feel like something very Mexican? That is why since you enter the Casa de los Platos you can realize the good choice you made. Its farmhouse cuisine will make you want to sing like mariachi not only because of the beautiful presentation, but also because of the great taste.",
+        "yearFounded": 1956,
+        "contact": "Sao Paulo 2367, Providencia, 44630, Guadalajara, Jal - Phone:  (33) 18145513",
+        "website": "https://lagorda.com.mx/"
+    }
+
+
+  ]
+}

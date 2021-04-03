@@ -327,14 +327,66 @@ td{
     text-align: center;
  }
 
- /* style for the city */
+ /* Style for the city */
  .himg{
      width: 60%;
  }
 
+/* Style for the Join Page*/
+input, select{
+    width: 60%;
+    height: 50px;
+    font-size: 1.3em;
+    border-radius: 7px;
+    border: none;
+    color: #b3b3b3;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    display: block;
+    margin: 0 auto;
+  }
 
+label{
+    color: #b3b3b3;
+    font-weight: bold;
+    color: black;
+}
 
+input:invalid{
+    border: 2px solid #B53737;
+  }
 
+.button_submit{
+    background-color: #FFA500;
+    font-size: 1.3em;
+    color:white;
+
+  }
+
+.radio label{
+    width: 10%;
+    height: 50px;;
+}
+
+.radio input{
+    width: 3%;
+    font-size: 1em;
+    align-items: center;
+    height: 20px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Style for directory */
+.business{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.business section{
+    border: 1px solid black;
+    margin: 0 0 1em 0;
+    padding: 2em;
+}
 
 /* Media Queries Start Here*/
 

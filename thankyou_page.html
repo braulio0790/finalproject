@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Finalproject for Braulio Garcia in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <meta name="description" content="Assignment weather site for Braulio Garcia in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="css/style.css" />
+  <script src="js/current_date.js"></script>
   <script src="js/date_toggle_menu.js"></script>
-  <script src="js/business.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Raleway&display=swap" rel="stylesheet">
-  <title>GDL Commerce Chamber - Directory</title>
+  <script src="js/windchill_forecast.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+  <!-- The follwing two references were added as part of the assignment, nevertheless they don't work for some reason. That is why I used the traditional method.-->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfontload.js"></script>
+  <title>Course Portal Home Page - BG</title>
 </head>
 <body onload="getYear();">
   <header>
@@ -38,14 +42,14 @@
     </nav>
   
   </header>
-  
-  <main>
-   <section class="section1">
-     <h2>Guadalajara Chamber of Commerce: Business Directory</h2><br>
-     <div class="business"></div>
-   </section>
-  </main> <!-- end of main -->
 
+  <main>
+    <div class="wrapperThankyou">
+    <h1>Thank You For Your Submition</h1>
+    <p>Your submision has been received. We will communicate with you as soon as possible.</p>
+  </div>
+ 
+  </main>
 
   <footer>
     <div class="footerContainer">
