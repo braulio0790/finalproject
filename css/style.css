@@ -127,6 +127,56 @@ footer a{
     padding: 1em 0 1em 0;
 }
 
+/* Style for the different background sections*/
+.section1{
+    background-color: #CBBEB3;
+    padding: 2em;
+    text-align: center;
+ }
+ 
+ .section2{
+     background-color: #BCAF9C;
+     padding: 2em;
+     text-align: center;
+  }
+ 
+  .section3{
+     background-color: #CBBEB3;
+     padding: 2em;
+     text-align: center;
+  }
+  
+  .section4{
+     background-color: #BCAF9C;
+     padding: 2em;
+     text-align: center;
+  }
+ 
+  .section5{
+     background-color: #CBBEB3;
+     padding: 2em;
+     text-align: center;
+  }
+
+  .section1 img{
+    border-radius: 30px;
+  }
+
+  .section2 img{
+    border-radius: 30px;
+  }
+
+  .section3 img{
+    border-radius: 30px;
+  }
+
+  .section4 img{
+    border-radius: 30px;
+  }
+
+  .section5 img{
+    border-radius: 30px;
+  }
 
 /* Style for the content of the home page*/ 
 
@@ -170,6 +220,10 @@ main{
     padding: 2em;
 }
 
+.business3 img{
+    border-radius: 30px;
+}
+
 .business3 a{
     text-align: center;
 }
@@ -183,7 +237,6 @@ main{
     height: 250px;
     display: inline-block;
     margin: 2em;
-    background-color: white;
 }
 
 
@@ -204,6 +257,7 @@ main{
     width: 30%;
     padding: 0 0 1em 0;
     margin: 0 auto;
+    border-radius: 30px;
 }
 
 .weather h3{
@@ -221,6 +275,7 @@ main{
     width: 30%;
     padding: 0 0 1em 0;
     margin: 0 auto;
+    border-radius: 30px;
 }
 
 .events h3{
@@ -249,6 +304,11 @@ main{
 
 table{
     border-collapse: collapse;
+    border-radius: 30px;
+}
+
+.table{
+    background-color: white;
 }
 
 .headertable{
@@ -257,10 +317,6 @@ table{
 
 .footertable{
     background-color: #FFA500 !important;
-}
-
-.table{
-    background-color: white;
 }
 
 
@@ -296,40 +352,34 @@ td{
     padding: 1em;
 }
 
-/* Style for the different background sections*/
-.section1{
-   background-color: #CBBEB3;
-   padding: 2em;
-   text-align: center;
-}
-
-.section2{
-    background-color: #BCAF9C;
-    padding: 2em;
-    text-align: center;
- }
-
- .section3{
-    background-color: #CBBEB3;
-    padding: 2em;
-    text-align: center;
- }
- 
- .section4{
-    background-color: #BCAF9C;
-    padding: 2em;
-    text-align: center;
- }
-
- .section5{
-    background-color: #CBBEB3;
-    padding: 2em;
-    text-align: center;
- }
-
  /* Style for the city */
  .himg{
      width: 60%;
+ }
+
+.section1 p{
+   width: 60%;
+   margin: 0 auto;
+}
+
+.section2 p{
+    width: 60%;
+    margin: 0 auto;
+ }
+
+ .section3 p{
+    width: 60%;
+    margin: 0 auto;
+ }
+
+ .section4 p{
+    width: 60%;
+    margin: 0 auto;
+ }
+
+ .section5 p{
+    width: 60%;
+    margin: 0 auto;
  }
 
 /* Style for the Join Page*/
@@ -386,6 +436,22 @@ input:invalid{
     border: 1px solid black;
     margin: 0 0 1em 0;
     padding: 2em;
+    background-color: white;
+}
+
+.business a{
+    color: black;
+}
+
+/* Style for Contact Page*/
+.presidents{
+    width: 20%;
+    padding: 2em;
+    display: inline-block;
+}
+
+.presidents img{
+    border-radius: 50%;
 }
 
 /* Media Queries Start Here*/
@@ -399,10 +465,6 @@ input:invalid{
 
 
 @media (max-width: 1000px) {
-
-.banner{
-        margin: -16px;
-    }
 
  .hide{
         display: none;
@@ -431,6 +493,18 @@ main{
     padding: 1em 0 1em 0;
     background-color: #d1d5da;
  }
+
+
+ .section1{
+    margin:-16px;
+}
+
+.business3{
+    margin: -16px;
+}
+
+footer{
+    margin: -20px;
 }
 
 
@@ -441,6 +515,10 @@ main{
             align-content: center;
             text-align: center;
             display: block;
+    }
+
+    .headericons{
+        padding: 0;
     }
     
     .hide{
