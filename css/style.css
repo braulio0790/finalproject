@@ -665,4 +665,54 @@ footer{
         width: 100%;
     }
 
-    }
+/* city style*/
+.himg{
+    width: 90%;
+}
+
+.section1 p{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section2 p{
+   width: 90%;
+   margin: 0 auto;
+}
+
+.section3 p{
+   width: 90%;
+   margin: 0 auto;
+}
+
+.section4 p{
+   width: 90%;
+   margin: 0 auto;
+}
+
+.section5 p{
+   width: 90%;
+   margin: 0 auto;
+}
+
+/* style join*/
+
+input{
+   width: 90%;
+}
+
+
+/* style directory*/
+.business{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* style for contact page*/
+.presidents{
+    width: 35%;
+    padding: 2em;
+    display: inline-block;
+}
+
+} /* end of media query 600px*/
