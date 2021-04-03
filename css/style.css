@@ -105,12 +105,12 @@ footer{
     background-color:#2f363d;
     color: white;
     padding: 1em;
+    width: 100%;
 }
 
 footer a{
     color: white;
 }
-
 
 .footerContainer{
     padding: 1em;
@@ -510,6 +510,8 @@ footer{
 
 @media (max-width: 600px) {
 
+  /* header */
+  
     #logo, .textBesideLogo{
             margin: 0 auto;
             align-content: center;
@@ -541,20 +543,46 @@ footer{
        .headerWidth ul{
         text-align: center;
     }
+
+    /* footer */
+    footer{
+        background-color:#2f363d;
+        text-align: center;
+        margin: -20px 0 0 0;
+        padding: 0;
+    }
     
+    footer a{
+        color: white;
+    }
+    
+    .footerContainer{
+        margin: 0 auto;
+        padding: 1em;
+    }
+
+    .currentHourW{
+        padding: 1em;
+    }
+
+    /* banner and home page*/
     .banner{
         height: 400px;
     }
     
     .text-block {
         position: absolute;
-        top: 3em;
+        bottom: 3em;
         left: 20px;
-        background-color: black;
-        opacity: 0.5;
+        background: rgba(0, 0, 0, 0.5);;
         color: white;
         padding: 2em;
-    } 
+        width: 300px;
+        margin: 0 0 0 14%;
+      }
+    .text-block button{
+        width: 100%;
+    }
     
     .text-block p{
         font-size: 1.5em;
@@ -563,13 +591,45 @@ footer{
     .text-block h3{
         font-size: 2em !important;
     }
-    
-    .weekly_weather{
-        width: 400px;
+
+/* business section home page */
+    .business3{
+        width: 100%;
+        margin: -34px 0 0 0;
+        padding: 0 0 1em 0;
+    }
+
+    .business3 h3{
+        padding: 1em;
+    }
+
+    .business3 img{
+        border-radius: 30px;
+        width: 90%;
     }
     
-    th, td{
-        width: 80px;
+    .business3 a{
+        text-align: center;
+    }
+    
+    .wrapperbusiness{
+       padding: 0;
+       margin: 0;
+    }
+
+    #b1, #b2, #b3{
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 1em 0 1em 0;
+    }
+    
+    .weekly_weather{
+        width: 100%;
+    }
+    
+    tr{
+        width: 100%;
         padding: .5em;
     }
     
@@ -597,6 +657,12 @@ footer{
         padding:0;
     }
     
-    
+    .wrapperweather{
+        width: 100%;
+    }
+
+    .wrapperEvents{
+        width: 100%;
+    }
 
     }
